@@ -19,6 +19,16 @@
  - (18)  -  sleep vs wait in threading 
  
  
+ 
+ - Threads 
+ 
+ - Tasks
+
+-  Both can use:
+   - Pointer to function
+   - Functor
+   - Lambda functions
+ 
 
 # Threads vs Tasks
 | Criteria           |  Thread    |  Tasks |
