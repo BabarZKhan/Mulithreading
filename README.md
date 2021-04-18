@@ -20,6 +20,20 @@
  
  
  
+
+ 
+
+# Threads vs Tasks
+| Criteria           |  Thread    |  Tasks |
+| -------------------------- | ------------- |----------------------------------- | 
+|     Header                       |       ``` <thread> ```                             |     ``` <future>```                              |             
+|     Participants                 |       creator and child thread                     |     promise and future                           |         
+|     Communication                |       shared variable                              |    communication channel                         |   
+|     Thread creation              |       obligatory                                   |    optional                                      |    
+|     Synchronization              |       join() call waits                            |    get() call blocks                             |       
+|     Exception in child thread    |       child and creator threat terminates          |    returns value of the get() call               |     
+|     Kinds of communication       |       values                                       |    values, notifications and exceptions          |         
+
  - Threads 
  
  - Tasks
@@ -28,16 +42,3 @@
    - Pointer to function
    - Functor
    - Lambda functions
- 
-
-# Threads vs Tasks
-| Criteria           |  Thread    |  Tasks |
-| -------------------------- | ------------- |----------------------------------- | 
-|     Header           |   ``` <thread> ```   |  ``` <future>```                         |             
-|      Participants          |      creator and child thread       |     promise and future                      |         
-|        Communication        |        shared variable      |   communication channel                     |   
-|        Thread creation        |      obligatory        |       optional                 |    
-|        Synchronization       |        join() call waits       |    get() call blocks                       |       
-|            Exception in child thread    |   child and creator threat terminates          |      returns value of the get() call                    |     
-|            Kinds of communication    |      values       |            values, notifications and exceptions              |         
-
