@@ -34,6 +34,8 @@
 |     Exception in child thread    |       child and creator threat terminates          |    returns value of the get() call               |     
 |     Kinds of communication       |       values                                       |    values, notifications and exceptions          |         
 
+
+# Threads vs Tasks Summary:
  - Threads 
  
  - Tasks
