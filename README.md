@@ -26,8 +26,8 @@
 |     Header           |  <thread>           |  <future>                         |             
 |      Participants          |      creator and child thread       |     promise and future                      |         
 |        Communication        |        shared variable      |   communication channel                     |   
-|        Thread creation        |              |                        |    
-|        Synchronization       |               |                           |       
-|            Exception in child thread    |             |                          |     
-|            Kinds of communication    |             |                          |         
+|        Thread creation        |      obligatory        |       optional                 |    
+|        Synchronization       |        join() call waits       |    get() call blocks                       |       
+|            Exception in child thread    |   child and creator           |                          |     
+|            Kinds of communication    |      values       |                          |         
 
