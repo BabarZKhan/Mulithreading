@@ -24,11 +24,11 @@
 | Criteria           |  Thread    |  Tasks |
 | -------------------------- | ------------- |----------------------------------- | 
 |     Header           |  <thread>           |  <future>                         |             
-|                |             |                           |         
-|                |              |                        |   
-|                |              |                        |    
-|               |               |                           |       
-|                |             |                          |     
+|      Participants          |             |                           |         
+|        Communication        |              |                        |   
+|        Thread creation        |              |                        |    
+|        Synchronization       |               |                           |       
+|            Exception in child thread    |             |                          |     
 |                |             |                          |         
 |                 |              |                          |          
 |                |              |                           |                   
