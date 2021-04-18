@@ -23,7 +23,7 @@
 # Threads vs Tasks
 | Criteria           |  Thread    |  Tasks |
 | -------------------------- | ------------- |----------------------------------- | 
-|     Header           |   ``` <thread> ```   |  <future>                         |             
+|     Header           |   ``` <thread> ```   |  ``` <future>```                         |             
 |      Participants          |      creator and child thread       |     promise and future                      |         
 |        Communication        |        shared variable      |   communication channel                     |   
 |        Thread creation        |      obligatory        |       optional                 |    
