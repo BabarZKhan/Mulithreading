@@ -36,9 +36,11 @@
 
 
 # Threads vs Tasks Summary:
- - Threads 
+ - Threads: Create using  ``` std::thread ```
+    - Does not return a value 
  
- - Tasks
+ - Tasks: Create using ``` std:async``` 
+     - Returns a value
 
 -  Both can use:
    - Pointer to function
