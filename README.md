@@ -29,5 +29,5 @@
 |        Thread creation        |      obligatory        |       optional                 |    
 |        Synchronization       |        join() call waits       |    get() call blocks                       |       
 |            Exception in child thread    |   child and creator           |                          |     
-|            Kinds of communication    |      values       |                          |         
+|            Kinds of communication    |      values       |            values, notifications and exceptions              |         
 
