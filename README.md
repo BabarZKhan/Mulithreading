@@ -24,17 +24,10 @@
 | Criteria           |  Thread    |  Tasks |
 | -------------------------- | ------------- |----------------------------------- | 
 |     Header           |  <thread>           |  <future>                         |             
-|      Participants          |             |                           |         
-|        Communication        |              |                        |   
+|      Participants          |      creator and child thread       |     promise and future                      |         
+|        Communication        |        shared variable      |   communication channel                     |   
 |        Thread creation        |              |                        |    
 |        Synchronization       |               |                           |       
 |            Exception in child thread    |             |                          |     
-|                |             |                          |         
-|                 |              |                          |          
-|                |              |                           |                   
-|                 |             |                       |   
-|                |               |                           |               
-|                |              |                       |       
-|                 |             |                     |          
-|               |              |                        |     
-|    |             |                       | 
+|            Kinds of communication    |             |                          |         
+
