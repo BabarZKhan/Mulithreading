@@ -28,6 +28,6 @@
 |        Communication        |        shared variable      |   communication channel                     |   
 |        Thread creation        |      obligatory        |       optional                 |    
 |        Synchronization       |        join() call waits       |    get() call blocks                       |       
-|            Exception in child thread    |   child and creator           |                          |     
+|            Exception in child thread    |   child and creator threat terminates          |      returns value of the get() call                    |     
 |            Kinds of communication    |      values       |            values, notifications and exceptions              |         
 
