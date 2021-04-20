@@ -1,4 +1,4 @@
-# Cplus_mulithreading
+# C++ Mulithreading 
 
  - (1)   -  Threads in C++
  - (2)   -  Different Types to create threads
