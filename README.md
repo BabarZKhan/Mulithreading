@@ -1,4 +1,5 @@
-# Cplus_mulithreading_tutorial
+# Cplus_mulithreading
+
  - (1)   -  Threads in C++
  - (2)   -  Different Types to create threads
  - (3)   -  Join and Detach with Joinable Threading 
