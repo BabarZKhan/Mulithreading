@@ -15,7 +15,7 @@
  - (13)  -  Thread or Process Synchronization 
  - (14)  -  std_lock
  - (15)  -  std_future and std_promise in C++ threading
- - (16)  -  std_async
+ - (16)  -  std_async_(create_a_task)
  - (17)  -  producer and consumer
  - (18)  -  sleep vs wait in threading 
  
