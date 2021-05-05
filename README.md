@@ -66,6 +66,6 @@
    
    
    # References
-   - [1] *C++ Concurrency in action* Anthony Williams 
+   - [1] Book called *C++ Concurrency in action* Practical Multithreading by Anthony Williams 
    - [2] Blog [Modernescpp](https://www.modernescpp.com/)
    
