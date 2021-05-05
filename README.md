@@ -66,6 +66,6 @@
    
    
    # References
-   [1] *C++ Concurrency in action* Anthony Williams 
-   [2] Blog [Modernescpp](https://www.modernescpp.com/)
+   - [1] *C++ Concurrency in action* Anthony Williams 
+   - [2] Blog [Modernescpp](https://www.modernescpp.com/)
    
