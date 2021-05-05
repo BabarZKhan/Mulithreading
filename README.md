@@ -1,3 +1,17 @@
+
+# Natural order of topics in C++ Multithreading (Roadmap)
+ - Topic 1: Hello, world of concurrency in C++!
+ - Topic 2: Managing Threads
+ - Topic 3: Sharing data between Threads
+ - Topic 4: Synchronizing concurrent operations
+ - Topic 5: The C++ memory model and operations on atomic types
+ - Topic 6: Designing lock-based concurrent data structures
+ - Topic 7: Designing lock-free concurrent data structures
+ - Topic 8: Designing concurrent code
+ - Topic 9: Advanced thread management
+
+
+
 # C++ Mulithreading 
 
  - (1)   -  Threads in C++
