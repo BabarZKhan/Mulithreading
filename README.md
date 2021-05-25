@@ -12,8 +12,8 @@
 
 
 
-# C++ Mulithreading 
-
+C++ Mulithreading 
+-----------------
  - (1)   -  Threads in C++
  - (2)   -  Different Types to create threads
  - (3)   -  Join and Detach with Joinable Threading 
@@ -50,8 +50,10 @@
 |     Kinds of communication       |       values                                       |    values, notifications and exceptions          |         
 
 
-# Threads vs Tasks Summary:
- - Threads: Create using  ``` std::thread ```
+Threads vs Tasks Summary:
+------------------------
+
+- Threads: Create using  ``` std::thread ```
     - Does not return a value 
  
  - Tasks: Create using ``` std:async``` 
@@ -62,7 +64,9 @@
    - Functor
    - Lambda functions
    
-# Contributing
+Contributing:
+-------------
+
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated. Following are the steps to contribute:
 
 - Fork the Project
@@ -72,7 +76,9 @@ Contributions are what make the open source community such an amazing place to b
 - Open a Pull Request
    
    
-# References
+References:
+-----------
+
    - [1] Book called *C++ Concurrency in action* Practical Multithreading by Anthony Williams 
    - [2] Blog [Modernescpp](https://www.modernescpp.com/)
    - [3] [Cpp parallelization Examples](cpp_parallelization_examples)
