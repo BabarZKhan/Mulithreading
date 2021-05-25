@@ -12,8 +12,9 @@
 
 
 
-C++ Mulithreading 
------------------
+Further breakdown of Roadmap: 
+----------------------------
+
  - (1)   -  Threads in C++
  - (2)   -  Different Types to create threads
  - (3)   -  Join and Detach with Joinable Threading 
@@ -38,7 +39,8 @@ C++ Mulithreading
 
  
 
-# Threads vs Tasks
+Threads vs Tasks:
+----------------
 | Criteria           |  Thread    |  Tasks |
 | -------------------------- | ------------- |----------------------------------- | 
 |     Header                       |       ``` <thread> ```                             |     ``` <future>```                              |             
