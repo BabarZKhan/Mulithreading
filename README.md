@@ -1,5 +1,7 @@
 
 # Natural order of topics in C++ Multithreading (Roadmap)
+
+This natural order (roadmap) is from the TOC of the book [1]. 
  - Topic 1: Hello, world of concurrency in C++!
  - Topic 2: Managing Threads
  - Topic 3: Sharing data between Threads
