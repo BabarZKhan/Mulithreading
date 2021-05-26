@@ -1,4 +1,4 @@
-// thread example
+
 #include <iostream> 
 #include <thread>       
  
