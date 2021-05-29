@@ -86,6 +86,7 @@ int main () {
 
 // 5. static member function
 
+/*
 class Base {
 	public:
 	static void run (int x) {
@@ -101,3 +102,4 @@ int main () {
 	t.join();
 	return 0;
 }		
+*/

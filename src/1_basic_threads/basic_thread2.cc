@@ -1,15 +1,10 @@
 #include <iostream>
 #include <thread>
 
-void foo () {
+void foo() { std::cout << "My name is foo..\n"; }
 
-	std::cout<<"My name is foo..\n";
- }
+int main() {
 
-int main () {
-
-	std::thread t(foo);
-	t.join();
+  std::thread t(foo);
+  t.join();
 }
-
-
