@@ -90,4 +90,4 @@ References:
 
    - [1] Book called *C++ Concurrency in action* Practical Multithreading by Anthony Williams 
    - [2] Blog [Modernescpp](https://www.modernescpp.com/) and its [examples](https://github.com/RainerGrimm/ModernesCppSource)
-   
+   - [3] [An Introduction to Parallel Computing in C++](https://www.cs.cmu.edu/~15210/pasl.html)
