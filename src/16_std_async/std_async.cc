@@ -11,6 +11,9 @@
 //    c. std::launch::async | std::launch::async 
 
 
+
+//std:async feels like an asynchronous function call. Under the hood std::async is a task. One, which is extremely easy to use
+
 #include <iostream>
 #include <numeric>
 #include <thread>

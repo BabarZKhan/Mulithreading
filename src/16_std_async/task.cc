@@ -1,5 +1,9 @@
 // async.cpp
 
+
+
+
+//std:.async feels like an asynchronous function call. Under the hood std::async is a task. One, which is extremely easy to use
 #include <future>
 #include <iostream>
 #include <string>
