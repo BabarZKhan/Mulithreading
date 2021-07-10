@@ -4,9 +4,6 @@
 // t.join : waits until thread t
 
 
-
-
-
 #include <iostream>
 #include <thread>
 

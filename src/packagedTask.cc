@@ -1,3 +1,6 @@
+
+// packagedTask.cpp
+
 #include <utility>
 #include <future>
 #include <iostream>
@@ -5,7 +8,6 @@
 #include <deque>
 
 
-/*
 class SumUp{
   public:
     int operator()(int beg, int end){
@@ -14,27 +16,28 @@ class SumUp{
       return sum;
     }
 };
-*/
 
 int main(){
 
   std::cout << std::endl;
 
-  Job   job1;
-  Job   job2;
-  Job   job3;
-  Job   job4;
+  SumUp sumUp1;
+  SumUp sumUp2;
+  SumUp sumUp3;
+  SumUp sumUp4;
 
   // define the tasks
-  std::packaged_task<int(int,int)> job1(sumUp1);
-  std::packaged_task<int(int,int)> job2(sumUp2);
-  std::packaged_task<int(int,int)> job3(sumUp3);
+  std::packaged_task<int(int,int)> sumTask1(sumUp1);
+  std::packaged_task<int(int,int)> sumTask2(sumUp2);
+  std::packaged_task<int(int,int)> sumTask3(sumUp3);
   std::packaged_task<int(int,int)> sumTask4(sumUp4);
 
+
+   
   // get the futures
-  std::future<int> sumResult1= job1.get_future();
-  std::future<int> sumResult2= job2.get_future();
-  std::future<int> sumResult3= job3.get_future();
+  std::future<int> sumResult1= sumTask1.get_future();
+  std::future<int> sumResult2= sumTask2.get_future();
+  std::future<int> sumResult3= sumTask3.get_future();
   std::future<int> sumResult4= sumTask4.get_future();
 
   // push the tasks on the container
@@ -43,6 +46,7 @@ int main(){
   allTasks.push_back(std::move(sumTask2));
   allTasks.push_back(std::move(sumTask3));
   allTasks.push_back(std::move(sumTask4));
+ 
   
   int begin{1};
   int increment{2500};
