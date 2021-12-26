@@ -16,5 +16,5 @@ int main() {
 
   // Makes the main thread wait for the new thread to finish execution,
   // therefore blocks its own execution.
-  t1.join();
+  t1.join(); // join is for waiting
 }

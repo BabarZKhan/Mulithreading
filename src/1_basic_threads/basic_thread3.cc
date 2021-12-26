@@ -37,10 +37,10 @@ int main(){
 
   std::cout << std::endl;
 
-  // thread executing helloFunction
+  // thread executing fooFunction
   std::thread t1(fooFunction);
 
-  // thread executing helloFunctionObject
+  // thread executing fooFunctionObject
   FooFunctionObject fooFunctionObject;
   std::thread t2(fooFunctionObject);
 
