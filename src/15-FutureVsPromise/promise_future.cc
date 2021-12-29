@@ -3,16 +3,19 @@
 //NOTES
 // 1. std::promise
 //    a. Used to set values or exceptions
+
+
 // 2. std::future
 //    a. Used to get values from promise 
 //    b. Ask promise if the value is available
 //    c. Wait for the promise
 
-#include <iostream>
+
 #include <thread>
 #include <chrono>
-#include <algorithm>
 #include <future>
+#include <algorithm>
+#include <iostream>
 
 using namespace std;
 using namespace std::chrono;

@@ -28,25 +28,6 @@ int main () {
 }
 */
 
-/*
-int asyncFunc() {
-
-  cout<<"Async Thread"<<this_thread::get_id()<<endl;
-  cout<<"I am inside async"<<endl;
-  
-  return 100;
-}
-
-int main () {
-
-   cout<<"Main thread"<<this_thread::get_id()<<endl;
-   future<int> fn  = async(launch::async, asyncFunc);
- 
-  
-   cout<<fn.get()<<endl;
-   return 0;
-}
-*/
 
 
 
